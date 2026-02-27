@@ -1,0 +1,30 @@
+.chart-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6f9;
+}
+
+.chart-card {
+    width: 900px;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-card h2 {
+    margin-bottom: 25px;
+}
+
+.chart-card button {
+    margin-top: 20px;
+    padding: 8px 18px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

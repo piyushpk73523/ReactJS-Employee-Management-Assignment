@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Full screen center */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs */
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    display: block;
+}
+
+/* Button */
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

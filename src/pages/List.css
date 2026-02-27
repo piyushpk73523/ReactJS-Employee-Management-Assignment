@@ -1,0 +1,65 @@
+.list-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.list-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Top Buttons */
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chart-btn,
+.map-btn {
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.chart-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.map-btn {
+    background: #2196f3;
+    color: white;
+}
+
+/* Employee Card */
+.employee-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.employee-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.emp-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.emp-salary {
+    font-weight: 500;
+    color: #555;
+}
