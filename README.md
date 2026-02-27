@@ -110,7 +110,6 @@ http://localhost:5000
 npm install
 npm run dev
 
-
 ## 📸 Screenshots
 
 ### 🔐 Login Page
@@ -132,7 +131,7 @@ npm run dev
 ![Chart](screenshots/chart.png)
 
 ### 🗺 Map View
-![Map](screenshots/photo.png)
+![Map](screenshots/map.png)
 
 
 
