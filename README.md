@@ -109,19 +109,30 @@ http://localhost:5000
 ▶ Frontend Setup
 npm install
 npm run dev
-📷 Screens Included
+## 📸 Screenshots
 
-Login Page
+### 🔐 Login Page
+![Login](screenshots/login.png)
 
-Employee List
+### 📋 Employee List
+![List](screenshots/list.png)
 
-Details Page
+### 👤 Employee Details
+![Details](screenshots/details.png)
 
-Photo Capture
+### 📷 Camera Capture
+![Camera](screenshots/camera.png)
 
-Salary Chart
+### 🖼 Photo Result
+![Photo](screenshots/photo.png)
 
-Map View
+### 📊 Salary Chart
+![Chart](screenshots/chart.png)
+
+### 🗺 Map View
+![Map](screenshots/map.png)
+
+
 
 🎥 Screen Recording
 
