@@ -145,6 +145,10 @@ npm run dev
 
 ## 🎥 Screen Recording
 
+Watch the full working demo here:
+
+[▶ Click here to watch the demo video](demo/demo.mp4)
+
 A full end-to-end screen recording demonstrating:
 - Login
 - API data fetch
