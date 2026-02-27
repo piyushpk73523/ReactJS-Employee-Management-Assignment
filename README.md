@@ -12,10 +12,8 @@ The app consists of multiple screens and demonstrates React fundamentals, routin
 ## 🚀 Features
 
 ### 1️⃣ Login Page
-- User authentication (Frontend validation)
-- Valid credentials:
-  - Username: `testuser`
-  - Password: `Test123`
+- Username: `testuser`
+- Password: `Test123`
 - Redirects to Employee List on successful login
 
 ---
@@ -53,13 +51,11 @@ The app consists of multiple screens and demonstrates React fundamentals, routin
 - Displays Bar Chart of Top 10 highest salaries
 - Short names on X-axis
 - Full name shown on hover
-- Salary formatted properly
 
 ---
 
 ### 6️⃣ Map Page
 - Displays ALL employees on world map
-- Each employee marker visible
 - Name permanently shown above marker
 - Popup shows full employee details
 - Handles overlapping using coordinate offset
@@ -68,47 +64,59 @@ The app consists of multiple screens and demonstrates React fundamentals, routin
 
 ## 🔗 REST API Used
 
-
 https://backend.jotish.in/backend_dev/gettabledata.php
 
-
 ### POST Body:
+
 ```json
 {
   "username": "test",
   "password": "123456"
 }
-🛠 Tech Stack
+```
 
-ReactJS (Vite)
+---
 
-React Router DOM
+## 🛠 Tech Stack
 
-Axios
+- ReactJS (Vite)
+- React Router DOM
+- Axios
+- Recharts (Bar Chart)
+- React Leaflet (Map)
+- Leaflet
+- Node.js (Backend Proxy for API)
 
-Recharts (Bar Chart)
+---
 
-React Leaflet (Map)
-
-Leaflet
-
-Node.js (Backend Proxy for API)
-
-⚙ Backend Proxy Setup
+## ⚙ Backend Proxy Setup
 
 Due to CORS restrictions, a small Node.js backend proxy is used.
 
-Backend Setup
+### Backend Setup
+
+```bash
 cd backend
 npm install
 node server.js
+```
 
 Server runs on:
 
+```
 http://localhost:5000
-▶ Frontend Setup
+```
+
+---
+
+## ▶ Frontend Setup
+
+```bash
 npm install
 npm run dev
+```
+
+---
 
 ## 📸 Screenshots
 
@@ -133,26 +141,21 @@ npm run dev
 ### 🗺 Map View
 ![Map](screenshots/map.png)
 
+---
 
-
-🎥 Screen Recording
+## 🎥 Screen Recording
 
 A full end-to-end screen recording demonstrating:
+- Login
+- API data fetch
+- Navigation
+- Chart rendering
+- Map visualization
+- Camera capture
 
-Login
+---
 
-API data fetch
+## 👨‍💻 Author
 
-Navigation
-
-Chart rendering
-
-Map visualization
-
-Camera capture
-
-
-👨‍💻 Author
-
-Piyush Kumar
+Piyush Kumar  
 ReactJS Assignment Submission
