@@ -123,7 +123,7 @@ npm run dev
 ![Details](screenshots/details.png)
 
 ### 📷 Camera Capture
-![Camera](screenshots/camera.png)
+![Camera](./screenshots/camera.png)
 
 ### 🖼 Photo Result
 ![Photo](screenshots/photo.png)
